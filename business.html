@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Business Place</title>
+  <link rel="stylesheet" href="business.css" />
+  <link rel="stylesheet" href="experience.css">
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="education.css">
+  <link rel="stylesheet" href="project.css">
+
+
+
+  <script src="header.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <a href="#"><span>isho</span> la</a>
+    </div>
+    <div class="header-center">
+      <nav class="nav">
+        <a href="portfolio.html">Portfolio</a>
+        <a href="#">Services</a>
+        <a href="experience.html">Experience</a>
+        <a href="project.html">Project</a>
+        <a href="education.html">Education</a>
+      </nav>
+    </div>
+    <div class="header-right">
+      <a href="#" class="contact-trigger">Contact me</a>
+      <div class="contact-dropdown">
+        <form id="headerContactForm" class="contact-form">
+          <div class="form-group">
+            <input type="text" id="headerFullName" name="fullName" placeholder=" " required>
+            <label for="headerFullName">Full Name</label>
+          </div>
+          
+          <div class="form-group">
+            <input type="email" id="headerEmail" name="email" placeholder=" " required>
+            <label for="headerEmail">Email</label>
+          </div>
+          
+          <div class="form-group">
+            <input type="tel" id="headerPhone" name="phone" placeholder=" ">
+            <label for="headerPhone">Phone (Optional)</label>
+          </div>
+          
+          <div class="form-group">
+            <input type="text" id="headerSubject" name="subject" placeholder=" " required>
+            <label for="headerSubject">Subject</label>
+          </div>
+          
+          <div class="form-group">
+            <textarea id="headerMessage" name="message" rows="3" placeholder=" " required></textarea>
+            <label for="headerMessage">Message</label>
+          </div>
+          
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+<section class="home">
+  <div class="home-content">
+    <h3>HI</h3>
+    <h1>I'm <span>ishola</span><br>a Frontend Developer</h1>
+    <p>I’m a creative and detail-oriented Frontend Web Developer with a passion for crafting engaging and responsive digital experiences. 
+      With a solid background in design and growing expertise in frontend technologies such as HTML, CSS, and JavaScript, 
+      I specialize in building visually compelling, user-friendly websites and brand assets that leave a lasting impression.
+      My goal is to turn ideas into reality through clean code, intuitive interfaces, and strong visual aesthetics.</p>
+    <div class="home-buttons">
+      <button class="btn btn-hire">Hire Me</button>
+      <button class="btn btn-experience">Experiencing</button>
+    </div>
+  </div>
+  <div class="home-image">
+    <img src="ib.jpeg" alt="Peter - Frontend Developer" class="profile-image" />
+  </div>
+</section>
+</body>
+</html>
