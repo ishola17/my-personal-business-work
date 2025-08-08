@@ -1,0 +1,70 @@
+/* Education Page Specific Styles */
+.education-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+
+  .education-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .education-header h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+
+  .education-header p {
+    color: #666;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  .education-timeline {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .education-item {
+    background: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid #e53935;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .education-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .education-item h2 {
+    color: #e53935;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+
+  .education-item p {
+    color: #555;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .education-container {
+      margin: 20px auto;
+    }
+    
+    .education-header h1 {
+      font-size: 2rem;
+    }
+    
+    .education-item {
+      padding: 20px;
+    }
+  }

@@ -1,0 +1,97 @@
+/* Experience Page - Matching Business Page Style */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #abe5f0;
+  color: #333;
+}
+
+.experience-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  padding: 60px 10vw 40px 10vw;
+  max-width: 1400px;
+  margin: 0 auto;
+  min-height: calc(100vh - 200px);
+}
+
+.experience-content {
+  max-width: 800px;
+  text-align: left;
+  color: #333;
+}
+
+.experience-content h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1.5rem;
+  color: black;
+  line-height: 1.2;
+}
+
+.experience-content h1 span {
+  color: #e53935;
+}
+
+.experience-text {
+  background-color: #fff;
+  padding: 2.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.experience-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: black;
+  margin: 0;
+}
+
+.btn-2 {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #e53935;
+  color: #fff;
+  border-radius: 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.btn-2:hover {
+  background: #c62828;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(229, 57, 53, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .experience-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 5% 30px;
+  }
+  
+  .experience-content {
+    text-align: center;
+  }
+  
+  .experience-content h1 {
+    font-size: 2.2rem;
+  }
+  
+  .experience-text {
+    padding: 1.5rem;
+  }
+  
+  .experience-text p {
+    font-size: 1rem;
+  }
+}
