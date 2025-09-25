@@ -1,0 +1,227 @@
+/* Hire Me Page Styles */
+.hire-me-page {
+    padding-top: 100px;
+    min-height: calc(100vh - 160px);
+    background-color: #f9f9f9;
+  }
+  
+  .hire-me-section {
+    padding: 40px 0;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .section-header h1 {
+    font-size: 2.8rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .section-header h1 span {
+    color: #e53935;
+  }
+  
+  .section-header p {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .hire-me-content {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .hire-me-intro h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .hire-me-intro h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background-color: #e53935;
+    border-radius: 2px;
+  }
+  
+  .hire-me-intro p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  
+  /* Offerings */
+  .offerings {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 40px 0;
+  }
+  
+  .offerings h3 {
+    color: #e53935;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .offerings h3 i {
+    color: #e53935;
+  }
+  
+  .offer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+  }
+  
+  .offer-list li {
+    margin-bottom: 15px;
+    padding-left: 35px;
+    position: relative;
+    color: #555;
+    font-size: 1.05rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .offer-list li i {
+    position: absolute;
+    left: 0;
+    color: #e53935;
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+  
+  /* CTA Section */
+  .cta-section {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+  }
+  
+  .cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .cta-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #e53935;
+    color: white;
+    padding: 12px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 2px solid #e53935;
+    font-size: 1.1rem;
+  }
+  
+  .cta-button:hover {
+    background: transparent;
+    color: #e53935;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(229, 57, 53, 0.3);
+  }
+  
+  .cta-button i {
+    font-size: 1.1rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 992px) {
+    .hire-me-content {
+      padding: 30px;
+    }
+    
+    .section-header h1 {
+      font-size: 2.4rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hire-me-page {
+      padding-top: 80px;
+    }
+    
+    .hire-me-section {
+      padding: 20px 0;
+    }
+    
+    .section-header h1 {
+      font-size: 2rem;
+    }
+    
+    .section-header p {
+      font-size: 1.1rem;
+      padding: 0 15px;
+    }
+    
+    .hire-me-content {
+      padding: 25px 20px;
+      margin: 0 15px;
+    }
+    
+    .offerings {
+      padding: 20px 15px;
+    }
+    
+    .offer-list {
+      grid-template-columns: 1fr;
+    }
+    
+    .cta-button {
+      width: 100%;
+      padding: 12px 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .section-header h1 {
+      font-size: 1.8rem;
+    }
+    
+    .hire-me-intro h2 {
+      font-size: 1.6rem;
+    }
+    
+    .offerings h3 {
+      font-size: 1.3rem;
+    }
+    
+    .offer-list li {
+      font-size: 1rem;
+    }
+    
+    .cta-section p {
+      font-size: 1.1rem;
+    }
+  }

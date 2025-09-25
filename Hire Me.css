@@ -1,0 +1,59 @@
+.hire-section {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.hire-header h2 {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+}
+
+.hire-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.offer-list {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.offer-list li {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.btn-primary {
+  display: inline-block;
+  font-size: 1.5rem;           /* Bigger text */
+  padding: 5px 10px;        /* More space around text */
+  background-color: #4caf50; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 80;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Button shadow */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+.cta-button:hover {
+  background-color: #45a049;
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+  .hire-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .hire-content p, .offer-list li {
+    font-size: 0.95rem;
+  }
+}
